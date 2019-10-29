@@ -1,15 +1,14 @@
 
 public class Instrument {
-	private String name;
-	private String type;
+	 String name;
+	 String type;
 	
-	public void instrument(String Name, String Type) {
-		name = Name;
-		type = Type;
+	public Instrument(String name, String type) {
+		this.name = name;
+		this.type = type;
 	}
 	
 	public void generateSound(int sound) {
 		
-	}
-	
+	}	
 }

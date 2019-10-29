@@ -5,9 +5,18 @@ public class Guitar extends Instrument {
 	private String bodyStyle;
 	private int serialNumber;
 	
+	public Guitar(String name, String type,String PlayMode, String ToneWood, String BodyStyle, int SerialNumber) {
+		super(name, type);
+		this.playMode = PlayMode;
+		this.bodyStyle = BodyStyle;
+		this.serialNumber = SerialNumber;
+		this.toneWood = ToneWood;
+	}
+	
+	
 	public String getPlayMode() {
 		return playMode;
-	}
+	} 
 	public void setPlayMode(String playMode) {
 		this.playMode = playMode;
 	}
